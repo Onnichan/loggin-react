@@ -1,0 +1,193 @@
+@import '../constants.css';
+
+.title-loggin{
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 1px var(--color-inputFocus);
+}
+
+.frm-loggin{
+  width: 35%;
+  height: 85%;
+  margin: auto;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  font-family: 'Itim', cursive;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2.5em;
+  background-color: var(--bg-form-color);
+}
+
+.input-loggin{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.frm-loggin div:nth-child(4){
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-loggin:last-child{
+  margin-top: 1.5em;
+}
+  
+.input{
+  outline: none;
+  padding: 8px 14px;
+  border-radius: .5em;
+  border: 2px solid var(--border-color-input);
+  background-color: transparent;
+}
+
+.input:focus:not(.submit-loggin){
+  border: 2px solid var(--color-inputFocus);
+}
+
+.input.submit-loggin:hover{
+  cursor: pointer;
+}
+
+.input.submit-loggin{
+  background-color: var(--bg-color-slider);
+}
+
+.cont-pass{
+  position: relative;
+  height: 34px;
+}
+
+.pass-loggin{
+  position: absolute;
+  width: 100%;
+  margin-bottom: 10px;
+  /* padding-right: 2.2em; */
+}
+
+.cont-pass .fa-eye{
+  position: absolute;
+  top: 25%;
+  right: 10px;
+  color: var(--font-color-iconEye);
+}
+
+.cont-pass .fa-eye:hover{
+  cursor: pointer;
+}
+
+.btn{
+  outline: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 4em;
+  border: none;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.btn:hover, .forgot-password{
+  cursor: pointer;
+}
+
+.submit-loggin{
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: linear-gradient(to left, #fc7f41, #f46949, #e95351, #da3f58, #c82d5f);
+}
+
+.txt-sign{
+  margin: -25px;
+  padding: 0 10px;
+  background-color: white;
+  color: var(--color-textSign);
+}
+
+.line{
+  width: 60%;
+  border: none;
+  border-top: 1px solid var(--color-textSign);
+}
+
+.facebook ,.google {
+  border-radius: 2px;
+  position: relative;
+}
+
+.facebook{
+  margin-top: 28px;
+  background-color: var(--bg-color-buttonFacebook);
+  margin-bottom: 8px;
+}
+
+.google{
+  background-color: var(--bg-color-buttonGoogle);
+}
+
+.facebook i, .google .content-svg{
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  width: 15%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.facebook i{
+  color: #3B5999;
+  font-size: 23px;
+}
+
+.google .content-svg img{
+  width: 50%;
+}
+
+.account{
+  margin-top: 11px;
+}
+
+.create-account{
+  color: var(--color-inputFocus);
+  text-decoration-line: underline;
+  /* line-height: 1em; */
+}
+
+.create-account:hover{
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1150px){
+  .frm-loggin{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .frm-loggin{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .frm-loggin{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .frm-loggin{
+    width: 90%;
+  }
+}
+
+
+
+

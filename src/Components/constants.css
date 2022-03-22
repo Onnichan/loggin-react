@@ -1,0 +1,12 @@
+/* Constants colors for the interface*/
+:root{
+  --bg-color: black;
+  --bg-form-color: white;
+  --color-inputFocus: #F46A49;
+  --bg-color-slider: rgba(0, 0, 0, 0.5);
+  --border-color-input: rgba(0, 0, 0, 0.3);
+  --color-textSign:rgba(0, 0, 0, 0.4);
+  --font-color-iconEye: rgba(34, 27, 27, 0.596);
+  --bg-color-buttonGoogle: #3578E7;
+  --bg-color-buttonFacebook: #3B5999;
+}
